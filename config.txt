@@ -1,0 +1,28 @@
+<?php
+// rename this file into config php
+
+$host = "";             // localhost
+$user = "";             // database user
+$pass = "";             // database password
+$dbname = "";           // database name
+
+// Set Time Zone
+// refereren https://en.wikipedia.org/wiki/List_of_tz_database_time_zones 
+$timeZone = "";   // Australia/Broken_Hill 
+
+
+// on/off 
+// true = sendemail
+// false = email is not send
+$sendEmail = false;
+
+// Set detail email
+$mailHost       = '';  //smtp.gmail.com
+$mailUsername   = '';  //SMTP username
+$mailPassword   = '';  //SMTP password
+$mailPort       = 587;
+
+//Recipients
+$mailFromEmail = ""; // From email address
+$mailFromName = ""; // From email name 
+$mailSubject = ""; // Email Subject
